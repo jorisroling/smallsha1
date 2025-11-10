@@ -1,5 +1,21 @@
 
 /*
+BEGIN_JUCE_MODULE_DECLARATION
+
+ID:                 smallsha1
+vendor:             adamski
+version:            1.0.0
+name:               smallsha1
+description:        Fast SHA1 algorithm with a small memory footprint
+license:            Not Specified
+dependencies:       juce_core
+minimumCppStandard: 17
+
+END_JUCE_MODULE_DECLARATION
+*/
+
+
+/*
 The MIT License (MIT)
 
 Copyright (c) [year] [fullname]
@@ -25,7 +41,7 @@ SOFTWARE.
 */
 
 #pragma once
-#include <modules/juce_core/juce_core.h>
+#include <juce_core/juce_core.h>
 
 namespace adamski {
 using namespace juce;

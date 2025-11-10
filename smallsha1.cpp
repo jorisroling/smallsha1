@@ -25,7 +25,7 @@ SOFTWARE.
 */
 
 
-#include "AppConfig.h"
+//#include "AppConfig.h"
 #include "smallsha1.h"
 
 
